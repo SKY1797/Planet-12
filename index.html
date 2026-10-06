@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planet 12 | Artisanal Imported Pecan Nuts, Almonds & King Cashews</title>
+  <meta name="description" content="Planet 12 brings world-class imported Mammoth Pecan Halves, California Almonds, and W180 King Cashews to India. Pure, natural, nitrogen-sealed freshness.">
+  <link rel="icon" type="image/jpeg" href="assets/planet12-logo.jpg">
+
+  <!-- Typography: Playfair Display & Plus Jakarta Sans with robust fallbacks -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Special Offers">
+    <div class="announcement-container">
+      <span class="announcement-pill">LAUNCH SPECIAL</span>
+      <p class="announcement-text">
+        Get <strong>Flat 15% OFF</strong> on your first order with code <span class="coupon-tag" onclick="copyCouponCode('PLANET12')">PLANET12</span> • Free Express Shipping on orders over ₹799 • 100% Crisp Crunch Guarantee
+      </p>
+      <div class="announcement-quick-contact">
+        <a href="https://wa.me/919876543210?text=Hi%20Planet%2012,%20I%20would%20like%20to%20know%20more%20about%20your%20premium%20nuts." target="_blank" rel="noopener noreferrer" class="announcement-wa">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.599 2.679-.702c.972.531 1.777.82 2.78.82 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.804-5.767-5.804zm8.284 5.768c0 4.566-3.719 8.285-8.285 8.285-1.42 0-2.77-.361-3.957-1.002l-4.409 1.157 1.178-4.305c-.732-1.258-1.12-2.709-1.12-4.135 0-4.566 3.719-8.285 8.285-8.285 4.566 0 8.308 3.719 8.308 8.285z"/></svg>
+          WhatsApp Concierge
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="header">
+    <div class="header-inner container">
+      <!-- Logo Branding -->
+      <a href="#hero" class="brand-link" aria-label="Planet 12 Homepage">
+        <img src="assets/planet12-logo.jpg" alt="Planet 12 Logo" class="brand-logo" width="56" height="56">
+        <div class="brand-text">
+          <span class="brand-title">PLANET 12</span>
+          <span class="brand-sub">NATURAL • PURE • NUTRITIOUS</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#collection" class="nav-link">Our Collection</a></li>
+          <li><a href="#pecan-awareness" class="nav-link special-link"><span class="nav-pulse"></span>Why Pecans?</a></li>
+          <li><a href="#purity-standard" class="nav-link">The Freshness Code</a></li>
+          <li><a href="#testimonials" class="nav-link">Connoisseurs</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <a href="#collection" class="btn btn-secondary btn-sm header-order-btn">Quick Shop</a>
+        <button class="cart-trigger-btn" id="cartTrigger" aria-label="View Shopping Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-pill-count" id="headerCartCount">0</span>
+          <span class="cart-pill-total" id="headerCartTotal">₹0</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Nav -->
+    <div class="mobile-nav-panel" id="mobileNavPanel">
+      <ul class="mobile-nav-list">
+        <li><a href="#collection" class="mobile-nav-link">Our Collection</a></li>
+        <li><a href="#pecan-awareness" class="mobile-nav-link">Why Pecans? (Awareness)</a></li>
+        <li><a href="#purity-standard" class="mobile-nav-link">The Freshness Code</a></li>
+        <li><a href="#testimonials" class="mobile-nav-link">Connoisseurs Reviews</a></li>
+        <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact & Gifting</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="https://wa.me/919876543210" target="_blank" class="btn btn-whatsapp btn-block">
+          Order on WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="hero-backdrop-grain"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-origin-badge">
+            <span class="badge-dot"></span>
+            <span>SINGLE-ORIGIN DIRECT IMPORTS • FRESH HARVEST</span>
+          </div>
+          <h1 class="hero-headline">
+            The Connoisseur’s Dry Fruits. <br>
+            <span class="hero-highlight">Born Pure. Sealed Crisp.</span>
+          </h1>
+          <p class="hero-description">
+            Experience the buttery royalty of imported <strong>Mammoth Pecan Halves</strong>, sun-cured <strong>California Nonpareil Almonds</strong>, and majestic <strong>King W180 Cashews</strong>. Handpicked, zero chemical bleaching, and nitrogen-sealed for that unforgettable gourmet crunch.
+          </p>
+
+          <!-- Conversion Buttons -->
+          <div class="hero-actions">
+            <a href="#collection" class="btn btn-primary btn-lg">
+              <span>Explore The Collection</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#pecan-awareness" class="btn btn-outline btn-lg">
+              <span>Why Pecans? (Discover)</span>
+              <span class="btn-micro-badge">Super-Nut</span>
+            </a>
+          </div>
+
+          <!-- Trust & Social Proof Badges -->
+          <div class="hero-social-proof">
+            <div class="rating-stars">
+              <span class="stars">★★★★★</span>
+              <span class="rating-text"><strong>4.92 / 5</strong> from 1,420+ Gourmet Connoisseurs</span>
+            </div>
+            <div class="trust-icons-row">
+              <div class="trust-chip">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <span>FSSAI Certified Food Grade</span>
+              </div>
+              <div class="trust-chip">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <span>Zero Sulfur / No Bleach</span>
+              </div>
+              <div class="trust-chip">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                <span>Dispatched within 24 Hours</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual-card">
+          <div class="hero-image-frame">
+            <img src="assets/gift-box.jpg" alt="Planet 12 Premium Dry Fruits Gift Box with Pecans, Almonds, and Cashews" class="hero-main-img" width="700" height="525">
+            <div class="hero-card-floating-badge badge-top-left">
+              <span class="badge-icon">👑</span>
+              <div>
+                <strong>Crown Quality</strong>
+                <small>Fancy Mammoth Halves & W180</small>
+              </div>
+            </div>
+            <div class="hero-card-floating-badge badge-bottom-right">
+              <span class="badge-icon">🍃</span>
+              <div>
+                <strong>100% Crisp Guarantee</strong>
+                <small>Freshness lock nitrogen flushed</small>
+              </div>
+            </div>
+          </div>
+          <!-- Hero Micro Stats -->
+          <div class="hero-stats-band">
+            <div class="stat-item">
+              <div class="stat-number">#1</div>
+              <div class="stat-label">Antioxidant Tree Nut (Pecan)</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-number">180</div>
+              <div class="stat-label">Jumbo King Grade / lb</div>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-number">0%</div>
+              <div class="stat-label">Preservatives or Sugars</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust-strip">
+      <div class="container trust-strip-flex">
+        <div class="trust-col">
+          <div class="trust-col-icon">🌱</div>
+          <div class="trust-col-body">
+            <h4>Single-Origin Direct Source</h4>
+            <p>Imported directly from certified partner orchards in Georgia (USA), California &amp; the Konkan Coast.</p>
+          </div>
+        </div>
+        <div class="trust-col">
+          <div class="trust-col-icon">✨</div>
+          <div class="trust-col-body">
+            <h4>Zero Chemical Bleaching</h4>
+            <p>100% naturally processed. Never treated with hydrogen peroxide or chlorine gas.</p>
+          </div>
+        </div>
+        <div class="trust-col">
+          <div class="trust-col-icon">📦</div>
+          <div class="trust-col-body">
+            <h4>Nitrogen Freshness Seal</h4>
+            <p>Triple-barrier resealable kraft pouches keep nuts crisp against humid Indian weather.</p>
+          </div>
+        </div>
+        <div class="trust-col">
+          <div class="trust-col-icon">🤝</div>
+          <div class="trust-col-body">
+            <h4>Free Replacement Promise</h4>
+            <p>If you don’t hear a sharp, delicious crunch in every bite, we refund or replace without hassle.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PECAN NUTS AWARENESS SECTION (Crucial Core Feature) -->
+    <section class="pecan-awareness-section" id="pecan-awareness">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">The Royal Nut India Has Been Missing</span>
+          <h2 class="section-title">Why Pecan Nuts Are the Crown Jewel of Healthy Snacking</h2>
+          <p class="section-subtitle">
+            Most Indian families know walnuts, almonds, and cashews. But here is the secret gourmet chefs and cardiologists know: <strong>Pecans give you double the antioxidants of standard nuts—with zero bitterness.</strong>
+          </p>
+        </div>
+
+        <!-- The Big Revelation Comparison Grid -->
+        <div class="pecan-comparison-wrapper">
+          <div class="comparison-card walnut-card">
+            <div class="card-status-tag tag-warning">Traditional Walnuts (Akhrot)</div>
+            <h3 class="comparison-nut-name">The Familiar Walnut</h3>
+            <p class="comparison-intro">Often eaten for brain health, but held back by astringency:</p>
+            <ul class="comparison-traits">
+              <li class="trait-con">
+                <span class="icon-bullet">⚠️</span>
+                <div>
+                  <strong>Harsh, Bitter Tannin Aftertaste:</strong> The skin carries dry astringent tannins that leave a sharp dry sensation in your throat.
+                </div>
+              </li>
+              <li class="trait-con">
+                <span class="icon-bullet">⚠️</span>
+                <div>
+                  <strong>Children &amp; Elders Resist It:</strong> Often needs to be soaked overnight or hidden in honey to be palatable.
+                </div>
+              </li>
+              <li class="trait-con">
+                <span class="icon-bullet">⚠️</span>
+                <div>
+                  <strong>ORAC Antioxidant Score:</strong> ~13,541 μmol TE/100g. Good, but outranked by pecans.
+                </div>
+              </li>
+              <li class="trait-con">
+                <span class="icon-bullet">⚠️</span>
+                <div>
+                  <strong>Prone to Rancid Smell:</strong> High polyunsaturated fats oxidize fast in Indian room temperatures.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="vs-badge">
+            <span>VS</span>
+          </div>
+
+          <div class="comparison-card pecan-card featured-glow">
+            <div class="card-status-tag tag-winner">Planet 12 Mammoth Pecans</div>
+            <h3 class="comparison-nut-name">The American Jumbo Pecan</h3>
+            <p class="comparison-intro">The world’s most luxurious, naturally sweet tree nut:</p>
+            <ul class="comparison-traits">
+              <li class="trait-pro">
+                <span class="icon-bullet">💎</span>
+                <div>
+                  <strong>Zero Bitterness — Pure Buttery Sweetness:</strong> Rich natural maple-caramel undertones and a smooth melt-in-the-mouth texture.
+                </div>
+              </li>
+              <li class="trait-pro">
+                <span class="icon-bullet">🥇</span>
+                <div>
+                  <strong>#1 Highest Antioxidant Tree Nut:</strong> Massive ORAC score of <strong>17,940 μmol TE/100g</strong>. Highest of any tree nut on earth!
+                </div>
+              </li>
+              <li class="trait-pro">
+                <span class="icon-bullet">❤️</span>
+                <div>
+                  <strong>Heart &amp; Cholesterol Champion:</strong> Over 60% Oleic acid (the same monounsaturated fat found in extra-virgin olive oil).
+                </div>
+              </li>
+              <li class="trait-pro">
+                <span class="icon-bullet">🩺</span>
+                <div>
+                  <strong>Diabetic &amp; Keto Superfood:</strong> Only 1.2g net carbs per standard 30g serving. Zero blood sugar spikes.
+                </div>
+              </li>
+            </ul>
+            <div class="pecan-card-cta">
+              <a href="#pecan-product-card" class="btn btn-accent btn-block">Taste The Difference (From ₹499)</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Antioxidant ORAC Chart Visualizer -->
+        <div class="orac-chart-box">
+          <div class="chart-header">
+            <h4>Antioxidant Superpower (ORAC Score Comparison)</h4>
+            <p>Oxygen Radical Absorbance Capacity per 100 grams (Source: USDA Nutrient Database)</p>
+          </div>
+          <div class="bars-container">
+            <div class="chart-bar-row">
+              <div class="bar-label"><strong>Pecan Nuts (Planet 12)</strong></div>
+              <div class="bar-track">
+                <div class="bar-fill bar-pecan" style="width: 100%;">
+                  <span class="bar-value">17,940 μmol (Highest in World)</span>
+                </div>
+              </div>
+            </div>
+            <div class="chart-bar-row">
+              <div class="bar-label">Walnuts</div>
+              <div class="bar-track">
+                <div class="bar-fill bar-walnut" style="width: 75%;">
+                  <span class="bar-value">13,541 μmol</span>
+                </div>
+              </div>
+            </div>
+            <div class="chart-bar-row">
+              <div class="bar-label">Almonds</div>
+              <div class="bar-track">
+                <div class="bar-fill bar-almond" style="width: 25%;">
+                  <span class="bar-value">4,454 μmol</span>
+                </div>
+              </div>
+            </div>
+            <div class="chart-bar-row">
+              <div class="bar-label">Cashews</div>
+              <div class="bar-track">
+                <div class="bar-fill bar-cashew" style="width: 11%;">
+                  <span class="bar-value">1,948 μmol</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="chart-footer-note">
+            💡 <em>Just 7 to 9 pecan halves a day provide your body's full daily polyphenol antioxidant defense against cellular aging and heart inflammation.</em>
+          </div>
+        </div>
+
+        <!-- 4 Everyday Ways to Enjoy Pecans in an Indian Household -->
+        <div class="pecan-lifestyle-grid">
+          <div class="lifestyle-hero-image">
+            <img src="assets/pecans-lifestyle.jpg" alt="Artisanal breakfast bowl with yogurt, berries, honey, and crunchy pecan nut halves" width="600" height="450" loading="lazy">
+            <div class="lifestyle-caption">
+              <span>Breakfast pairing: Greek yogurt, raw honey &amp; Planet 12 Mammoth Pecans</span>
+            </div>
+          </div>
+          <div class="lifestyle-content">
+            <span class="section-eyebrow">Versatile &amp; Delicious</span>
+            <h3 class="lifestyle-title">How To Enjoy Pecans in Your Daily Indian Routine</h3>
+            
+            <div class="lifestyle-steps">
+              <div class="lifestyle-step">
+                <div class="step-num">01</div>
+                <div class="step-desc">
+                  <strong>The Morning Power Bowl:</strong>
+                  <p>Toss 5–6 roughly crushed pecan halves over your morning oats, muesli, or Greek dahi with a drizzle of honey. It adds a buttery crunch without any sour or bitter tang.</p>
+                </div>
+              </div>
+
+              <div class="lifestyle-step">
+                <div class="step-num">02</div>
+                <div class="step-desc">
+                  <strong>The 4 PM Chai Companion:</strong>
+                  <p>Lightly dry-roast pecans in a pan with a pinch of sendha namak (rock salt). Pairs majestically with adrak-elachi chai and keeps your evening cravings satisfied until dinner.</p>
+                </div>
+              </div>
+
+              <div class="lifestyle-step">
+                <div class="step-num">03</div>
+                <div class="step-desc">
+                  <strong>The Modern Kheer &amp; Halwa Twist:</strong>
+                  <p>Swap chopped walnuts or regular nuts in rice kheer, moong dal halwa, or besan laddoos. Pecans infuse a warm toffee-caramel aroma that delights guests.</p>
+                </div>
+              </div>
+
+              <div class="lifestyle-step">
+                <div class="step-num">04</div>
+                <div class="step-desc">
+                  <strong>Guilt-Free Midnight Fuel for Fitness:</strong>
+                  <p>Keep a jar by your desk. Because net carbs are extremely low, it sustains ketone levels and prevents blood sugar crashes during late-night work.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT CATALOG & CONVERSION SHOWCASE -->
+    <section class="collection-section" id="collection">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">The Planet 12 Signature Line</span>
+          <h2 class="section-title">Fresh Harvest. Three Sovereign Nuts.</h2>
+          <p class="section-subtitle">
+            Every batch is moisture-tested, optically sorted, and sealed under inert nitrogen to guarantee maximum snap and flavor. Select your preferred pack size below.
+          </p>
+        </div>
+
+        <!-- Filter / Tabs -->
+        <div class="collection-tabs">
+          <button class="tab-btn active" data-filter="all">All Specialties</button>
+          <button class="tab-btn" data-filter="pecan">Pecan Halves</button>
+          <button class="tab-btn" data-filter="almond">California Almonds</button>
+          <button class="tab-btn" data-filter="cashew">King W180 Cashews</button>
+          <button class="tab-btn" data-filter="gift">Connoisseur Hamper</button>
+        </div>
+
+        <!-- Product Cards Grid -->
+        <div class="products-grid">
+          
+          <!-- PRODUCT 1: PECAN NUTS (HERO PRODUCT) -->
+          <article class="product-card featured-product" id="pecan-product-card" data-category="pecan" data-id="pecan">
+            <div class="product-badge-wrap">
+              <span class="product-badge badge-primary">👑 STAR PRODUCT • USA IMPORT</span>
+              <span class="product-badge badge-discount">SAVE 17%</span>
+            </div>
+            <div class="product-image-container">
+              <img src="assets/pecan-nuts.jpg" alt="Artisanal Mammoth Pecan Nut Halves Planet 12" class="product-img" width="500" height="375" loading="lazy">
+              <button class="quick-view-btn" onclick="openProductModal('pecan')">Nutrition &amp; Tasting Notes</button>
+            </div>
+            <div class="product-info">
+              <div class="product-rating-row">
+                <span class="stars-gold">★★★★★</span>
+                <span class="review-count">(4.9 • 860 reviews)</span>
+                <span class="stock-pill in-stock">● In Stock</span>
+              </div>
+              <h3 class="product-title">Mammoth Jumbo Pecan Halves</h3>
+              <p class="product-tagline">Direct Georgia/Texas Import • Zero Bitterness • Naturally Sweet &amp; Buttery</p>
+              
+              <div class="flavor-pills">
+                <span class="flavor-pill">Toffee-Maple Undertone</span>
+                <span class="flavor-pill">World's #1 Antioxidant</span>
+                <span class="flavor-pill">Keto / Diabetic Friendly</span>
+              </div>
+
+              <!-- Size / Weight Selector -->
+              <div class="weight-selector-wrap">
+                <label class="weight-label">Select Net Weight:</label>
+                <div class="weight-options" data-product="pecan">
+                  <button type="button" class="weight-btn active" data-weight="250g" data-price="499" data-mrp="599" data-savings="100">
+                    250g <span class="unit-rate">₹499</span>
+                  </button>
+                  <button type="button" class="weight-btn" data-weight="500g" data-price="949" data-mrp="1199" data-savings="250">
+                    500g <span class="unit-rate">₹949</span>
+                  </button>
+                  <button type="button" class="weight-btn" data-weight="1kg" data-price="1799" data-mrp="2399" data-savings="600">
+                    1 kg <span class="unit-rate">₹1,799</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Price Row -->
+              <div class="price-row">
+                <div class="price-figures">
+                  <span class="currency">₹</span>
+                  <span class="price-current" id="price-pecan">499</span>
+                  <span class="price-mrp" id="mrp-pecan">₹599</span>
+                  <span class="price-save-text" id="save-pecan">Save ₹100</span>
+                </div>
+                <div class="tax-info">Inclusive of all taxes &amp; nitrogen packaging</div>
+              </div>
+
+              <!-- Conversion Actions -->
+              <div class="card-actions-row">
+                <div class="quantity-stepper">
+                  <button type="button" class="qty-btn minus" onclick="decrementQty('pecan')" aria-label="Decrease quantity">−</button>
+                  <input type="number" id="qty-pecan" value="1" min="1" max="10" readonly>
+                  <button type="button" class="qty-btn plus" onclick="incrementQty('pecan')" aria-label="Increase quantity">+</button>
+                </div>
+                <button type="button" class="btn btn-primary add-cart-btn" onclick="addToCart('pecan')">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                  <span>Add to Bag</span>
+                </button>
+              </div>
+
+              <!-- Instant WhatsApp Order Button -->
+              <button type="button" class="btn btn-whatsapp-card" onclick="orderSingleViaWhatsApp('pecan')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.599 2.679-.702c.972.531 1.777.82 2.78.82 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.804-5.767-5.804zm8.284 5.768c0 4.566-3.719 8.285-8.285 8.285-1.42 0-2.77-.361-3.957-1.002l-4.409 1.157 1.178-4.305c-.732-1.258-1.12-2.709-1.12-4.135 0-4.566 3.719-8.285 8.285-8.285 4.566 0 8.308 3.719 8.308 8.285z"/></svg>
+                <span>Instant 1-Click WhatsApp Order</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PRODUCT 2: CALIFORNIA ALMONDS -->
+          <article class="product-card" id="almond-product-card" data-category="almond" data-id="almond">
+            <div class="product-badge-wrap">
+              <span class="product-badge badge-secondary">CALIFORNIA NONPAREIL JUMBO</span>
+            </div>
+            <div class="product-image-container">
+              <img src="assets/almonds.jpg" alt="California Supreme Almonds Planet 12" class="product-img" width="500" height="375" loading="lazy">
+              <button class="quick-view-btn" onclick="openProductModal('almond')">Nutrition &amp; Tasting Notes</button>
+            </div>
+            <div class="product-info">
+              <div class="product-rating-row">
+                <span class="stars-gold">★★★★★</span>
+                <span class="review-count">(4.9 • 430 reviews)</span>
+                <span class="stock-pill in-stock">● In Stock</span>
+              </div>
+              <h3 class="product-title">California Supreme Jumbo Almonds</h3>
+              <p class="product-tagline">20/22 Mammoth Count • Clean Snapping Crunch • High Natural Almond Oil</p>
+              
+              <div class="flavor-pills">
+                <span class="flavor-pill">Natural Sweet Milk Snap</span>
+                <span class="flavor-pill">Rich in Vitamin E &amp; Biotin</span>
+                <span class="flavor-pill">Unpasteurized / Raw</span>
+              </div>
+
+              <!-- Size / Weight Selector -->
+              <div class="weight-selector-wrap">
+                <label class="weight-label">Select Net Weight:</label>
+                <div class="weight-options" data-product="almond">
+                  <button type="button" class="weight-btn active" data-weight="250g" data-price="349" data-mrp="420" data-savings="71">
+                    250g <span class="unit-rate">₹349</span>
+                  </button>
+                  <button type="button" class="weight-btn" data-weight="500g" data-price="649" data-mrp="799" data-savings="150">
+                    500g <span class="unit-rate">₹649</span>
+                  </button>
+                  <button type="button" class="weight-btn" data-weight="1kg" data-price="1199" data-mrp="1499" data-savings="300">
+                    1 kg <span class="unit-rate">₹1,199</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Price Row -->
+              <div class="price-row">
+                <div class="price-figures">
+                  <span class="currency">₹</span>
+                  <span class="price-current" id="price-almond">349</span>
+                  <span class="price-mrp" id="mrp-almond">₹420</span>
+                  <span class="price-save-text" id="save-almond">Save ₹71</span>
+                </div>
+                <div class="tax-info">Inclusive of all taxes &amp; nitrogen packaging</div>
+              </div>
+
+              <!-- Conversion Actions -->
+              <div class="card-actions-row">
+                <div class="quantity-stepper">
+                  <button type="button" class="qty-btn minus" onclick="decrementQty('almond')" aria-label="Decrease quantity">−</button>
+                  <input type="number" id="qty-almond" value="1" min="1" max="10" readonly>
+                  <button type="button" class="qty-btn plus" onclick="incrementQty('almond')" aria-label="Increase quantity">+</button>
+                </div>
+                <button type="button" class="btn btn-primary add-cart-btn" onclick="addToCart('almond')">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                  <span>Add to Bag</span>
+                </button>
+              </div>
+
+              <!-- Instant WhatsApp Order Button -->
+              <button type="button" class="btn btn-whatsapp-card" onclick="orderSingleViaWhatsApp('almond')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.599 2.679-.702c.972.531 1.777.82 2.78.82 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.804-5.767-5.804zm8.284 5.768c0 4.566-3.719 8.285-8.285 8.285-1.42 0-2.77-.361-3.957-1.002l-4.409 1.157 1.178-4.305c-.732-1.258-1.12-2.709-1.12-4.135 0-4.566 3.719-8.285 8.285-8.285 4.566 0 8.308 3.719 8.308 8.285z"/></svg>
+                <span>Instant 1-Click WhatsApp Order</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PRODUCT 3: W180 KING CASHEWS -->
+          <article class="product-card" id="cashew-product-card" data-category="cashew" data-id="cashew">
+            <div class="product-badge-wrap">
+              <span class="product-badge badge-gold">W180 KING GRADE • JUMBO CRESCENT</span>
+            </div>
+            <div class="product-image-container">
+              <img src="assets/cashews.jpg" alt="King W180 Cashews Planet 12" class="product-img" width="500" height="375" loading="lazy">
+              <button class="quick-view-btn" onclick="openProductModal('cashew')">Nutrition &amp; Tasting Notes</button>
+            </div>
+            <div class="product-info">
+              <div class="product-rating-row">
+                <span class="stars-gold">★★★★★</span>
+                <span class="review-count">(4.95 • 510 reviews)</span>
+                <span class="stock-pill in-stock">● In Stock</span>
+              </div>
+              <h3 class="product-title">King W180 Whole Ivory Cashews</h3>
+              <p class="product-tagline">"King of Cashews" • Only 180 Nuts/lb • Creamy Melt-in-Mouth Richness</p>
+              
+              <div class="flavor-pills">
+                <span class="flavor-pill">Giant Unbroken Crescents</span>
+                <span class="flavor-pill">Velvety Creamy Finish</span>
+                <span class="flavor-pill">Zero Preservatives</span>
+              </div>
+
+              <!-- Size / Weight Selector -->
+              <div class="weight-selector-wrap">
+                <label class="weight-label">Select Net Weight:</label>
+                <div class="weight-options" data-product="cashew">
+                  <button type="button" class="weight-btn active" data-weight="250g" data-price="399" data-mrp="480" data-savings="81">
+                    250g <span class="unit-rate">₹399</span>
+                  </button>
+                  <button type="button" class="weight-btn" data-weight="500g" data-price="749" data-mrp="899" data-savings="150">
+                    500g <span class="unit-rate">₹749</span>
+                  </button>
+                  <button type="button" class="weight-btn" data-weight="1kg" data-price="1399" data-mrp="1699" data-savings="300">
+                    1 kg <span class="unit-rate">₹1,399</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Price Row -->
+              <div class="price-row">
+                <div class="price-figures">
+                  <span class="currency">₹</span>
+                  <span class="price-current" id="price-cashew">399</span>
+                  <span class="price-mrp" id="mrp-cashew">₹480</span>
+                  <span class="price-save-text" id="save-cashew">Save ₹81</span>
+                </div>
+                <div class="tax-info">Inclusive of all taxes &amp; nitrogen packaging</div>
+              </div>
+
+              <!-- Conversion Actions -->
+              <div class="card-actions-row">
+                <div class="quantity-stepper">
+                  <button type="button" class="qty-btn minus" onclick="decrementQty('cashew')" aria-label="Decrease quantity">−</button>
+                  <input type="number" id="qty-cashew" value="1" min="1" max="10" readonly>
+                  <button type="button" class="qty-btn plus" onclick="incrementQty('cashew')" aria-label="Increase quantity">+</button>
+                </div>
+                <button type="button" class="btn btn-primary add-cart-btn" onclick="addToCart('cashew')">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                  <span>Add to Bag</span>
+                </button>
+              </div>
+
+              <!-- Instant WhatsApp Order Button -->
+              <button type="button" class="btn btn-whatsapp-card" onclick="orderSingleViaWhatsApp('cashew')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.599 2.679-.702c.972.531 1.777.82 2.78.82 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.804-5.767-5.804zm8.284 5.768c0 4.566-3.719 8.285-8.285 8.285-1.42 0-2.77-.361-3.957-1.002l-4.409 1.157 1.178-4.305c-.732-1.258-1.12-2.709-1.12-4.135 0-4.566 3.719-8.285 8.285-8.285 4.566 0 8.308 3.719 8.308 8.285z"/></svg>
+                <span>Instant 1-Click WhatsApp Order</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- PRODUCT 4: CONNOISSEUR'S TRIO HAMPER -->
+          <article class="product-card featured-hamper" id="gift-product-card" data-category="gift" data-id="gift">
+            <div class="product-badge-wrap">
+              <span class="product-badge badge-primary">🎁 LUXURY TRIO GIFT BOX</span>
+              <span class="product-badge badge-discount">BEST VALUE • SAVE ₹300</span>
+            </div>
+            <div class="product-image-container">
+              <img src="assets/gift-box.jpg" alt="Connoisseur Trio Gift Box Planet 12" class="product-img" width="500" height="375" loading="lazy">
+              <button class="quick-view-btn" onclick="openProductModal('gift')">Hamper Details</button>
+            </div>
+            <div class="product-info">
+              <div class="product-rating-row">
+                <span class="stars-gold">★★★★★</span>
+                <span class="review-count">(5.0 • 320 reviews)</span>
+                <span class="stock-pill in-stock">● In Stock</span>
+              </div>
+              <h3 class="product-title">The Connoisseur’s Trio Hamper Box</h3>
+              <p class="product-tagline">Royal Emerald &amp; Gold Box • Contains Pecan Halves, Jumbo Almonds &amp; W180 Cashews</p>
+              
+              <div class="flavor-pills">
+                <span class="flavor-pill">Pecan (250g) + Almond (250g) + Cashew (250g)</span>
+                <span class="flavor-pill">Artisanal Foil Stamped Box</span>
+                <span class="flavor-pill">Complimentary Gift Card</span>
+              </div>
+
+              <!-- Size / Weight Selector -->
+              <div class="weight-selector-wrap">
+                <label class="weight-label">Net Content:</label>
+                <div class="weight-options" data-product="gift">
+                  <button type="button" class="weight-btn active" data-weight="750g Box" data-price="1249" data-mrp="1549" data-savings="300">
+                    750g Deluxe Hamper <span class="unit-rate">₹1,249</span>
+                  </button>
+                  <button type="button" class="weight-btn" data-weight="1.5kg Grand Box" data-price="2399" data-mrp="2999" data-savings="600">
+                    1.5kg Grand Hamper <span class="unit-rate">₹2,399</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Price Row -->
+              <div class="price-row">
+                <div class="price-figures">
+                  <span class="currency">₹</span>
+                  <span class="price-current" id="price-gift">1249</span>
+                  <span class="price-mrp" id="mrp-gift">₹1549</span>
+                  <span class="price-save-text" id="save-gift">Save ₹300</span>
+                </div>
+                <div class="tax-info">Free Express Shipping &amp; Festive Outer Carton Included</div>
+              </div>
+
+              <!-- Conversion Actions -->
+              <div class="card-actions-row">
+                <div class="quantity-stepper">
+                  <button type="button" class="qty-btn minus" onclick="decrementQty('gift')" aria-label="Decrease quantity">−</button>
+                  <input type="number" id="qty-gift" value="1" min="1" max="10" readonly>
+                  <button type="button" class="qty-btn plus" onclick="incrementQty('gift')" aria-label="Increase quantity">+</button>
+                </div>
+                <button type="button" class="btn btn-primary add-cart-btn" onclick="addToCart('gift')">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                  <span>Add to Bag</span>
+                </button>
+              </div>
+
+              <!-- Instant WhatsApp Order Button -->
+              <button type="button" class="btn btn-whatsapp-card" onclick="orderSingleViaWhatsApp('gift')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.599 2.679-.702c.972.531 1.777.82 2.78.82 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.804-5.767-5.804zm8.284 5.768c0 4.566-3.719 8.285-8.285 8.285-1.42 0-2.77-.361-3.957-1.002l-4.409 1.157 1.178-4.305c-.732-1.258-1.12-2.709-1.12-4.135 0-4.566 3.719-8.285 8.285-8.285 4.566 0 8.308 3.719 8.308 8.285z"/></svg>
+                <span>Instant 1-Click WhatsApp Order</span>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- THE PLANET 12 PURITY CODE (Why we are different) -->
+    <section class="purity-section" id="purity-standard">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Integrity From Soil to Pouch</span>
+          <h2 class="section-title">The Planet 12 Freshness &amp; Purity Code</h2>
+          <p class="section-subtitle">
+            Most supermarket dry fruits spend 6 to 9 months sitting in unsealed sacks before reaching you. Here is why Planet 12 tastes like it was harvested yesterday.
+          </p>
+        </div>
+
+        <div class="purity-grid">
+          <div class="purity-item">
+            <div class="purity-icon-wrapper">01</div>
+            <h3>Optically Inspected &amp; Hand-Sorted</h3>
+            <p>Every lot passes through dual pneumatic optical sorting followed by meticulous manual inspection. Zero pieces, zero hollow nuts, zero insect damage.</p>
+          </div>
+          <div class="purity-item">
+            <div class="purity-icon-wrapper">02</div>
+            <h3>Sub-15°C Climate Cold Storage</h3>
+            <p>We preserve fragile essential fatty acids and natural tocopherols in humidity-controlled temperature chambers until the very moment of packing.</p>
+          </div>
+          <div class="purity-item">
+            <div class="purity-icon-wrapper">03</div>
+            <h3>Nitrogen-Flushed Micro Pouching</h3>
+            <p>Oxygen is the #1 enemy of nut freshness. We flush each pouch with 99.8% food-grade inert nitrogen so your nuts remain crispy, sweet, and aromatic.</p>
+          </div>
+          <div class="purity-item">
+            <div class="purity-icon-wrapper">04</div>
+            <h3>No Bleaching, No Mineral Oils</h3>
+            <p>We refuse to treat our cashews with sulphur dioxide or glaze our almonds with mineral oils to artificially mimic shine. What you eat is 100% pure nature.</p>
+          </div>
+        </div>
+
+        <!-- Guarantee Banner -->
+        <div class="guarantee-box">
+          <div class="guarantee-badge">
+            <span class="seal-icon">🛡️</span>
+            <div>
+              <h3>Our 100% "Crisp Snap" Guarantee</h3>
+              <p>If any pouch from Planet 12 does not snap with a crisp, crunchy bite or tastes stale in any way, send us a WhatsApp message. We will dispatch a fresh replacement pouch immediately, completely on us. No awkward return forms.</p>
+            </div>
+          </div>
+          <a href="#collection" class="btn btn-secondary">Order Risk-Free Today</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF & TESTIMONIALS -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Real Connoisseurs. Real Verdicts.</span>
+          <h2 class="section-title">Loved by Doctors, Chefs &amp; Discerning Families</h2>
+          <p class="section-subtitle">Join thousands across India who have upgraded their daily nut ritual to Planet 12.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">AS</div>
+              <div class="reviewer-meta">
+                <h4 class="reviewer-name">Dr. Ananya Sharma</h4>
+                <span class="reviewer-role">Clinical Nutritionist • South Mumbai</span>
+              </div>
+              <span class="verified-badge">✓ Verified Buyer</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              “For years I recommended Pecans to my cardiac and diabetic patients due to their high oleic acid content and low net carbs, but finding un-rancid pecans in India was impossible. Planet 12's mammoth pecan halves are a revelation: giant, sweet, without the walnut astringency, and perfectly vacuum sealed.”
+            </p>
+            <div class="review-product-tag">Purchased: <strong>Mammoth Pecans (1kg)</strong></div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">VS</div>
+              <div class="reviewer-meta">
+                <h4 class="reviewer-name">Vikram Singhania</h4>
+                <span class="reviewer-role">Pastry Chef &amp; Restaurateur • New Delhi</span>
+              </div>
+              <span class="verified-badge">✓ Verified Buyer</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              “The W180 Cashews are genuinely King grade. In Delhi wholesale markets they charge exorbitant prices for broken halves. Planet 12 delivers pristine, unbroken jumbo crescent cashews with natural sweetness. Even their California almonds have a clean almond-milk aroma when you bite in.”
+            </p>
+            <div class="review-product-tag">Purchased: <strong>King W180 Cashews &amp; Almonds</strong></div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-avatar">MS</div>
+              <div class="reviewer-meta">
+                <h4 class="reviewer-name">Meera Sundaram</h4>
+                <span class="reviewer-role">Homemaker • Indiranagar, Bengaluru</span>
+              </div>
+              <span class="verified-badge">✓ Verified Buyer</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              “My children used to run away from walnuts because of the bitter aftertaste. I tried Planet 12's Pecan nuts on their morning pancakes and oats—they finished the bowl in 2 minutes! We also ordered the Trio Gift Hamper for Diwali and our guests couldn't stop praising the packaging.”
+            </p>
+            <div class="review-product-tag">Purchased: <strong>Connoisseur Trio Gift Box</strong></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FREQUENTLY ASKED QUESTIONS -->
+    <section class="faq-section" id="faq">
+      <div class="container max-w-800">
+        <div class="section-header text-center">
+          <span class="section-eyebrow">Got Questions?</span>
+          <h2 class="section-title">Everything You Need to Know</h2>
+          <p class="section-subtitle">Transparent answers regarding our sourcing, taste, and pan-India delivery.</p>
+        </div>
+
+        <div class="faq-accordion">
+          
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>Why should I choose Pecan Nuts over regular Walnuts?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>While both nuts look somewhat similar, their taste and nutrient profile are completely different. Walnuts contain astringent tannins in their skin that leave a dry, bitter aftertaste. <strong>Pecan nuts have zero bitterness</strong>; they possess a smooth, naturally sweet, buttery, caramel-like richness. Furthermore, Pecans rank <strong>#1 in antioxidant capacity (ORAC 17,940)</strong> among all tree nuts and have lower net carbs, making them friendlier for children, elders, and keto/diabetic routines.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Are Planet 12 dry fruits raw, roasted, or salted?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Our standard collection is <strong>100% Raw, Unsalted, and Unadulterated</strong>, straight from the orchard harvest. This preserves the live enzymes, essential fatty acids, and clean natural sweetness. You can enjoy them raw or toast them lightly at home with your favorite spices.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>What does "W180" mean on your cashew nuts?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>In cashew grading, "W" stands for Whole (unbroken) and the number indicates how many cashew kernels weigh one pound (453g). Lower numbers mean significantly larger nuts. Standard store-bought cashews are typically W320 or W240. <strong>W180 is known worldwide as the "King of Cashews"</strong>—the largest, plumpest, rarest grade available on the market.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How should I store these nuts in humid Indian weather?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Our pouches come with a heavy-duty airtight zip-lock seal. For daily use, keep the pouch zipped in a cool, dark pantry. In extreme summer heat or monsoon humidity, storing the pouch (or an airtight glass jar) in the refrigerator maintains that mouthwatering crisp crunch for up to 9–12 months!</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>How fast is delivery and how does WhatsApp ordering work?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>We dispatch all orders within 24 business hours from our central temperature-controlled hub. Delivery takes 2–3 days for metro cities (Mumbai, Delhi NCR, Bengaluru, Hyderabad, Chennai, Kolkata) and 3–5 days for tier-2/tier-3 cities across India. When you click <strong>"Order via WhatsApp"</strong>, our concierge prepares your order instantly without you needing to fill long checkout forms.</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Do you accept Cash on Delivery (COD) and UPI?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Yes! We accept all major Indian payment methods: Google Pay, PhonePe, Paytm, BHIM UPI, Net Banking, Credit/Debit cards, as well as Cash on Delivery across 19,000+ pin codes in India.</p>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & CORPORATE GIFTING SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          
+          <div class="contact-info-col">
+            <span class="section-eyebrow">Direct Concierge</span>
+            <h2 class="contact-title">We’re Here for Your Palate.</h2>
+            <p class="contact-text">
+              Have questions about batch freshness, dietary pairings, or customized festive gift hampers for weddings and corporate orders? Reach out directly to our founding team.
+            </p>
+
+            <div class="contact-channels">
+              <a href="https://wa.me/919876543210?text=Hello%20Planet%2012,%20I%20have%20an%20inquiry%20regarding%20your%20dry%20fruits." target="_blank" rel="noopener noreferrer" class="contact-card card-whatsapp">
+                <div class="contact-card-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.599 2.679-.702c.972.531 1.777.82 2.78.82 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.804-5.767-5.804zm8.284 5.768c0 4.566-3.719 8.285-8.285 8.285-1.42 0-2.77-.361-3.957-1.002l-4.409 1.157 1.178-4.305c-.732-1.258-1.12-2.709-1.12-4.135 0-4.566 3.719-8.285 8.285-8.285 4.566 0 8.308 3.719 8.308 8.285z"/></svg>
+                </div>
+                <div class="contact-card-body">
+                  <small>Instant WhatsApp Hotline (Fastest)</small>
+                  <strong>+91 98765 43210</strong>
+                  <span>Available 9 AM – 9 PM IST daily</span>
+                </div>
+              </a>
+
+              <a href="mailto:care@planet12.in" class="contact-card">
+                <div class="contact-card-icon">✉️</div>
+                <div class="contact-card-body">
+                  <small>Email Inquiries &amp; Support</small>
+                  <strong>care@planet12.in</strong>
+                  <span>orders@planet12.in</span>
+                </div>
+              </a>
+
+              <div class="contact-card">
+                <div class="contact-card-icon">📍</div>
+                <div class="contact-card-body">
+                  <small>Dispatch &amp; Processing Facility</small>
+                  <strong>Planet 12 Gourmet Foods Hub</strong>
+                  <span>Sector 19, APMC Market-I, Vashi, Navi Mumbai, Maharashtra 400703</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-channels-row">
+              <span class="social-label">Follow Our Journey:</span>
+              <div class="social-pills">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                  <span>@planet12.dryfruits</span>
+                </a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Facebook">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                  <span>Planet 12 India</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact / Gifting Inquiry Form -->
+          <div class="contact-form-col">
+            <div class="form-container-box">
+              <h3 class="form-title">Send a Quick Message or Hamper Inquiry</h3>
+              <p class="form-desc">Fill this quick form and our gourmet manager will get back within 2 hours.</p>
+
+              <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                <div class="form-group">
+                  <label for="contactName">Your Full Name *</label>
+                  <input type="text" id="contactName" required placeholder="e.g. Rajesh Malhotra">
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contactPhone">Phone / WhatsApp *</label>
+                    <input type="tel" id="contactPhone" required placeholder="+91 98765 00000">
+                  </div>
+                  <div class="form-group">
+                    <label for="contactEmail">Email Address</label>
+                    <input type="email" id="contactEmail" placeholder="rajesh@example.com">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactTopic">Inquiry Type</label>
+                  <select id="contactTopic">
+                    <option value="General Order Inquiry">General Product / Order Question</option>
+                    <option value="Pecan Nut Query">Pecan Nut Awareness &amp; Usage</option>
+                    <option value="Corporate / Festive Gifting">Corporate / Wedding Gifting (Bulk)</option>
+                    <option value="Feedback / Quality">Product Feedback &amp; Freshness</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMsg">Message / Specific Requirements</label>
+                  <textarea id="contactMsg" rows="3" placeholder="Tell us how we can help you..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                  <span>Send Message Directly</span>
+                </button>
+                <div id="contactSuccessMsg" class="form-success-banner" style="display: none;">
+                  ✓ Thank you! Your message has been received. Our team will contact you promptly.
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand-col">
+        <div class="footer-logo-row">
+          <img src="assets/planet12-logo.jpg" alt="Planet 12 Logo" class="footer-logo" width="60" height="60">
+          <div>
+            <span class="footer-brand-title">PLANET 12</span>
+            <span class="footer-tagline">NATURAL • PURE • NUTRITIOUS</span>
+          </div>
+        </div>
+        <p class="footer-about">
+          Planet 12 is dedicated to sourcing single-origin, pristine dry fruits and super-nuts from the world’s most pristine orchards. Never bleached, zero additives, and packed for peak crisp freshness.
+        </p>
+        <div class="fssai-block">
+          <div class="fssai-badge">FSSAI Lic. No. 11524999000123</div>
+          <small>Certified Central Food Safety Standards</small>
+        </div>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4 class="footer-heading">Collection</h4>
+        <ul class="footer-links">
+          <li><a href="#pecan-product-card">Mammoth Pecan Halves</a></li>
+          <li><a href="#almond-product-card">California Jumbo Almonds</a></li>
+          <li><a href="#cashew-product-card">King W180 Cashews</a></li>
+          <li><a href="#gift-product-card">The Connoisseur Trio Hamper</a></li>
+          <li><a href="#pecan-awareness">Pecan vs Walnut Guide</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-col">
+        <h4 class="footer-heading">Customer Care</h4>
+        <ul class="footer-links">
+          <li><a href="https://wa.me/919876543210" target="_blank">Track Order on WhatsApp</a></li>
+          <li><a href="#purity-standard">100% Crisp Guarantee</a></li>
+          <li><a href="#faq">Frequently Asked Questions</a></li>
+          <li><a href="#contact">Corporate &amp; Wedding Gifting</a></li>
+          <li><a href="#contact">Contact Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter-col">
+        <h4 class="footer-heading">The Connoisseur’s Circle</h4>
+        <p class="footer-news-text">Subscribe for secret harvest updates, early Diwali reservations, and chef pairing recipes.</p>
+        <form class="footer-news-form" onsubmit="handleNewsletter(event)">
+          <input type="email" id="newsletterEmail" required placeholder="Enter your email...">
+          <button type="submit" class="btn btn-secondary btn-sm">Join</button>
+        </form>
+        <div id="newsletterSuccess" class="newsletter-success" style="display: none;">
+          ✓ Welcome to the Planet 12 family! Check your inbox for 15% off.
+        </div>
+        <div class="payment-methods-strip">
+          <span class="payment-badge">UPI / GPay / PhonePe</span>
+          <span class="payment-badge">Cash on Delivery</span>
+          <span class="payment-badge">All Cards</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Planet 12 Gourmet Foods India. All rights reserved. Registered Trademark.</p>
+      <div class="footer-sub-links">
+        <span>Privacy Policy</span> • <span>Terms of Service</span> • <span>Shipping &amp; Refund Policy</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SHOPPING CART SLIDE-OVER DRAWER -->
+  <div class="cart-drawer-overlay" id="cartOverlay" onclick="closeCart()"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+    <div class="cart-drawer-header">
+      <div class="cart-header-title">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+        <h3>Your Fresh Nut Bag</h3>
+        <span class="cart-drawer-count" id="drawerCartCount">(0)</span>
+      </div>
+      <button class="cart-close-btn" onclick="closeCart()" aria-label="Close cart">&times;</button>
+    </div>
+
+    <!-- Free Shipping Progress -->
+    <div class="free-shipping-bar-box">
+      <div class="shipping-info-row">
+        <span id="shippingProgressText">Add ₹799 more for <strong>FREE Pan-India Delivery!</strong></span>
+        <span id="shippingIcon">🚚</span>
+      </div>
+      <div class="shipping-progress-track">
+        <div class="shipping-progress-fill" id="shippingProgressFill" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <!-- Cart Items Container -->
+    <div class="cart-items-body" id="cartItemsContainer">
+      <!-- Dynamic cart items rendered here -->
+    </div>
+
+    <!-- Empty Cart Fallback -->
+    <div class="empty-cart-state" id="emptyCartState">
+      <div class="empty-cart-icon">🌰</div>
+      <h4>Your bag is currently empty</h4>
+      <p>Explore our fresh single-estate pecans, jumbo almonds, and king cashews.</p>
+      <button class="btn btn-primary" onclick="closeCart(); window.location.hash='#collection';">Browse Collection</button>
+    </div>
+
+    <!-- Cart Footer & Checkout -->
+    <div class="cart-drawer-footer" id="cartFooter">
+      <div class="coupon-input-group">
+        <input type="text" id="couponInput" placeholder="Discount Code (e.g. PLANET12)" value="PLANET12">
+        <button type="button" class="btn btn-secondary btn-sm" onclick="applyCoupon()">Apply</button>
+      </div>
+      <div id="couponAppliedMsg" class="coupon-applied-note">
+        ✓ Code <strong>PLANET12</strong> applied! (15% Launch Discount)
+      </div>
+
+      <div class="cart-calculation-rows">
+        <div class="calc-row">
+          <span>Subtotal</span>
+          <span id="cartSubtotal">₹0</span>
+        </div>
+        <div class="calc-row discount-row" id="discountRow">
+          <span>Launch Discount (15%)</span>
+          <span id="cartDiscount">-₹0</span>
+        </div>
+        <div class="calc-row">
+          <span>Pan-India Shipping</span>
+          <span id="cartShipping">₹0</span>
+        </div>
+        <div class="calc-row total-row">
+          <strong>Final Total (Incl. Taxes)</strong>
+          <strong class="total-figure" id="cartGrandTotal">₹0</strong>
+        </div>
+      </div>
+
+      <!-- Checkout Options -->
+      <div class="cart-checkout-actions">
+        <!-- Direct 1-Click WhatsApp Ordering -->
+        <button class="btn btn-whatsapp btn-block" onclick="checkoutViaWhatsApp()">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.599 2.679-.702c.972.531 1.777.82 2.78.82 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.804-5.767-5.804zm8.284 5.768c0 4.566-3.719 8.285-8.285 8.285-1.42 0-2.77-.361-3.957-1.002l-4.409 1.157 1.178-4.305c-.732-1.258-1.12-2.709-1.12-4.135 0-4.566 3.719-8.285 8.285-8.285 4.566 0 8.308 3.719 8.308 8.285z"/></svg>
+          <span>Order via WhatsApp (1-Click)</span>
+        </button>
+
+        <!-- Fast Web Checkout Modal Button -->
+        <button class="btn btn-primary btn-block" onclick="openCheckoutModal()">
+          <span>Proceed to Delivery &amp; Payment (COD / UPI)</span>
+        </button>
+      </div>
+
+      <div class="cart-trust-footer">
+        🔒 256-Bit Encrypted • Cash on Delivery / UPI • 100% Crisp Guarantee
+      </div>
+    </div>
+  </aside>
+
+  <!-- FAST CHECKOUT MODAL -->
+  <div class="modal-overlay" id="checkoutModalOverlay" onclick="closeCheckoutModal()"></div>
+  <div class="checkout-modal" id="checkoutModal" role="dialog" aria-modal="true" aria-labelledby="checkoutModalTitle">
+    <div class="modal-header">
+      <h3 id="checkoutModalTitle">Delivery &amp; Payment Details</h3>
+      <button class="modal-close-btn" onclick="closeCheckoutModal()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <form id="checkoutForm" onsubmit="handleDirectCheckout(event)">
+        <div class="checkout-order-summary-pill" id="checkoutSummaryPill">
+          <!-- Summary injected dynamically -->
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="coName">Full Name *</label>
+            <input type="text" id="coName" required placeholder="e.g. Sumanth Verma">
+          </div>
+          <div class="form-group">
+            <label for="coPhone">Mobile Number (For Dispatch SMS) *</label>
+            <input type="tel" id="coPhone" required placeholder="+91 98765 43210">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="coAddress">Delivery Street Address *</label>
+          <input type="text" id="coAddress" required placeholder="Flat/House No, Building, Street">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="coCity">City *</label>
+            <input type="text" id="coCity" required placeholder="e.g. Mumbai / Delhi / Bengaluru">
+          </div>
+          <div class="form-group">
+            <label for="coPincode">Pincode *</label>
+            <input type="text" id="coPincode" required placeholder="6-digit Pincode" maxlength="6">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Preferred Payment Mode:</label>
+          <div class="payment-options-grid">
+            <label class="pay-option">
+              <input type="radio" name="paymentMethod" value="UPI / Online" checked>
+              <div class="pay-option-content">
+                <strong>⚡ UPI / QR Code / NetBanking</strong>
+                <small>Instant GPay, PhonePe, Paytm</small>
+              </div>
+            </label>
+            <label class="pay-option">
+              <input type="radio" name="paymentMethod" value="Cash on Delivery">
+              <div class="pay-option-content">
+                <strong>💵 Cash On Delivery (COD)</strong>
+                <small>Pay at your doorstep upon delivery</small>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block btn-lg">
+          <span id="checkoutSubmitText">Confirm &amp; Place Order</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ORDER SUCCESS CONFIRMATION MODAL -->
+  <div class="modal-overlay" id="successModalOverlay" onclick="closeSuccessModal()"></div>
+  <div class="checkout-modal success-modal" id="successModal" role="dialog" aria-modal="true">
+    <div class="success-icon-animated">✓</div>
+    <h2>Order Confirmed!</h2>
+    <p class="success-subtitle">Thank you for choosing <strong>Planet 12</strong>. Your order is being freshly packed under nitrogen at our climate-controlled facility.</p>
+    
+    <div class="order-receipt-box" id="orderReceiptBox">
+      <!-- Order details injected dynamically -->
+    </div>
+
+    <div class="success-actions">
+      <a href="#" id="orderWhatsAppShareBtn" target="_blank" class="btn btn-whatsapp btn-block">
+        Share / Track on WhatsApp
+      </a>
+      <button class="btn btn-secondary btn-block" onclick="closeSuccessModal()">
+        Continue Shopping
+      </button>
+    </div>
+  </div>
+
+  <!-- NUTRITION & TASTING MODAL -->
+  <div class="modal-overlay" id="nutritionModalOverlay" onclick="closeProductModal()"></div>
+  <div class="checkout-modal product-detail-modal" id="nutritionModal" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h3 id="nutModalTitle">Product Details</h3>
+      <button class="modal-close-btn" onclick="closeProductModal()">&times;</button>
+    </div>
+    <div class="modal-body" id="nutModalBody">
+      <!-- Injected via JavaScript -->
+    </div>
+  </div>
+
+  <!-- FLOATING CONCIERGE WHATSAPP BUTTON -->
+  <div class="floating-concierge">
+    <a href="https://wa.me/919876543210?text=Hello%20Planet%2012,%20I%20am%20interested%20in%20ordering%20premium%20nuts." target="_blank" rel="noopener noreferrer" class="floating-wa-btn" aria-label="Chat on WhatsApp">
+      <span class="floating-wa-tooltip">Order or ask questions on WhatsApp!</span>
+      <div class="floating-wa-icon">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.599 2.679-.702c.972.531 1.777.82 2.78.82 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.804-5.767-5.804zm8.284 5.768c0 4.566-3.719 8.285-8.285 8.285-1.42 0-2.77-.361-3.957-1.002l-4.409 1.157 1.178-4.305c-.732-1.258-1.12-2.709-1.12-4.135 0-4.566 3.719-8.285 8.285-8.285 4.566 0 8.308 3.719 8.308 8.285z"/></svg>
+      </div>
+    </a>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
