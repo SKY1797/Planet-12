@@ -115,7 +115,7 @@ let appliedCoupon = 'PLANET12';
 let discountRate = 0.15; // 15%
 const FREE_SHIPPING_THRESHOLD = 799;
 const STANDARD_SHIPPING_FEE = 70;
-const WHATSAPP_PHONE = '91989898999';
+const WHATSAPP_PHONE = '91 9574279679';
 
 // Initialize App
 document.addEventListener('DOMContentLoaded', () => {
